@@ -1,0 +1,28 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bfc32eprkxk65"]
+
+[ext_resource type="Texture2D" uid="uid://blei3s61ch5v2" path="res://core/levels/tutorial/TUTORIAL_WallJump1_BaseColor.png" id="1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7ebwe"]
+render_priority = 1
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0, 0, 0, 1)
+grow = true
+grow_amount = 0.109
+stencil_mode = 3
+stencil_flags = 1
+stencil_compare = 5
+metadata/_stencil_owned = true
+
+[resource]
+resource_name = "WallJump1"
+next_pass = SubResource("StandardMaterial3D_7ebwe")
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+albedo_texture = ExtResource("1")
+roughness = 0.5
+stencil_mode = 1
+stencil_flags = 2
+stencil_outline_thickness = 0.109

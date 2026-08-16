@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://364i4p3lmdyg"]
+
+[ext_resource type="Script" uid="uid://bd7drb8biq36a" path="res://core/game/game.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://b3jkipo6j8yiw" path="res://core/user_interface/main.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://clc723uluh4lx" path="res://core/entities/player/player.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://drmki3mxjthos" path="res://core/levels/tutorial.tscn" id="4"]
+
+[node name="Game" type="Node" unique_id=1102019646]
+script = ExtResource("1")
+
+[node name="Control" parent="." unique_id=1469207058 instance=ExtResource("2")]
+
+[node name="Player" parent="." unique_id=1024272105 instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6635926, 0)
+
+[node name="Node3D" parent="." unique_id=356274100 instance=ExtResource("4")]
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=514952184]

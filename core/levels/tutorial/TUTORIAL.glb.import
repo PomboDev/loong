@@ -1,0 +1,268 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://5jgctqfttxde"
+path="res://.godot/imported/TUTORIAL.glb-6d2758ebe3fa961085fd8f46ff440e07.scn"
+
+[deps]
+
+source_file="res://core/levels/tutorial/TUTORIAL.glb"
+dest_files=["res://.godot/imported/TUTORIAL.glb-6d2758ebe3fa961085fd8f46ff440e07.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="TUTORIAL"
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+_subresources={
+"materials": {
+"BottomRoof.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/paifang/BottomRoof.1001.tres",
+"use_external/path": "uid://decv5finv38iq"
+},
+"Details.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/paifang/Details.1001.tres",
+"use_external/path": "uid://lsla1fpm8ovt"
+},
+"Mountain": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/Mountain.tres",
+"use_external/path": "uid://dp27b7j2n4wru"
+},
+"Paifang.Stone": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/paifang/Paifang.Stone.tres",
+"use_external/path": "uid://d3mqdcp6unjtm"
+},
+"Pillars.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/paifang/Pillars.1001.tres",
+"use_external/path": "uid://smkgn8f0n7qo"
+},
+"Platform.Dirt.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/Platform.Dirt.1001.tres",
+"use_external/path": "uid://b074ienmxp7tq"
+},
+"Platform.Spawn.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/Platform.Spawn.1001.tres",
+"use_external/path": "uid://1bwyi6qykgui"
+},
+"Platform2.Stone.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/Platform2.Stone.1001.tres",
+"use_external/path": "uid://bissi8hl2a3db"
+},
+"Platform2.dirt.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/Platform2.dirt.1001.tres",
+"use_external/path": "uid://b7uv41jqrfcvg"
+},
+"PlatformerSlab.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/PlatformerSlab.1001.tres",
+"use_external/path": "uid://1ygyxsqsdkc3"
+},
+"StoneStairs.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/StoneStairs.1001.tres",
+"use_external/path": "uid://ku5f0edx4jbo"
+},
+"TopRoof.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/paifang/TopRoof.1001.tres",
+"use_external/path": "uid://byhbucxl1ykqd"
+},
+"WallChallegen2.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/WallChallegen2.1001.tres",
+"use_external/path": "uid://4hjs083q6rah"
+},
+"WallChallenge1.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/WallChallenge1.1001.tres",
+"use_external/path": "uid://jtvk3j6l6p06"
+},
+"WallChallenge3.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/WallChallenge3.1001.tres",
+"use_external/path": "uid://cssw61yar4c1x"
+},
+"WallJump1.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/WallJump1.1001.tres",
+"use_external/path": "uid://y4vc0ybtq3av"
+},
+"WallJump2.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/WallJump2.1001.tres",
+"use_external/path": "uid://dfeni6bmr08os"
+},
+"WoodBeam.1001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/levels/tutorial/paifang/WoodBeam.1001.tres",
+"use_external/path": "uid://71e4xmc43q8d"
+}
+},
+"meshes": {
+"TUTORIAL_Cube": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cube_001": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cube_002": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cube_003-0_004": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cube_009": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cube_011": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cylinder": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cylinder_001": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cylinder_002": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cylinder_003": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cylinder_004": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cylinder_005": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cylinder_006": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cylinder_008": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+},
+"TUTORIAL_Cylinder_011": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1

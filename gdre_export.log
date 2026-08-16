@@ -1,0 +1,35 @@
+GDRE Tools v2.6.4
+macOS 26.5.2, Apple M3 Pro (Apple9), metal
+Opening file: /Volumes/External/Downloads/windows/loong.exe
+Loaded 114 imported files
+Detected Engine Version: 4.6.1
+Detected Bytecode Revision: 4.5.0-stable (ebc36a7)
+Verified 234 files, no errors detected!
+Extracted 234 files, no errors detected!
+Recreating plugin configs...
+Found matching plugin in cache: debug_draw_3d, version: 1.7.1, download url: https://github.com/DmitriySalnikov/godot_debug_draw_3d/releases/download/1.7.1/debug-draw-3d_1.7.1.zip
+Saved project config.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     38
+Scripts not decompiled:                 0
+Imported resources for export session:  114
+Successfully converted:                 114
+Lossy:                                  26
+Rewrote metadata:                       35
+Non-importable conversions:             0
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 4.6.1 to edit the project.
+
+*******************************************************************************
+

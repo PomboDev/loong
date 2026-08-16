@@ -1,0 +1,85 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://d2dhi80jiv6v6"
+path="res://.godot/imported/loong.glb-162108efc3ad9e0a2a2f79f67bfbfc35.scn"
+
+[deps]
+
+source_file="res://core/entities/player/assets/loong.glb"
+dest_files=["res://.godot/imported/loong.glb-162108efc3ad9e0a2a2f79f67bfbfc35.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="loong"
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=false
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=true
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+_subresources={
+"animations": {
+"idle": {
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/keep_custom_tracks": false,
+"save_to_file/path": "",
+"settings/loop_mode": 1,
+"slices/amount": 0
+},
+"walk": {
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/keep_custom_tracks": false,
+"save_to_file/path": "",
+"settings/loop_mode": 1,
+"slices/amount": 0
+}
+},
+"materials": {
+"Eyes": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/entities/player/assets/Eyes.tres",
+"use_external/path": "uid://blkfrcr3uw8mx"
+},
+"Material.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/entities/player/assets/Material.001.tres",
+"use_external/path": "uid://c4vkrprblvkwa"
+},
+"Outline": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://core/entities/player/assets/Outline.tres",
+"use_external/path": "uid://u0h6gwi3cth5"
+}
+},
+"meshes": {
+"loong_Cylinder_001": {
+"generate/lightmap_uv": 0,
+"generate/lods": 2,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": false,
+"save_to_file/fallback_path": "",
+"save_to_file/path": ""
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1

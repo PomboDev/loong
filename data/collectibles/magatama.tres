@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CollectibleData" format=3 uid="uid://f15mpkfel8m"]
+
+[ext_resource type="PackedScene" uid="uid://di5fuxd28rgp4" path="res://assets/collectables/magatama.glb" id="1"]
+[ext_resource type="Script" uid="uid://ysbjfdcdui6n" path="res://features/collectible_feature/collectible_resource.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+name = "Magatama"
+mesh_scene = ExtResource("1")
+albedo_texture = null
+metadata/_custom_type_script = "uid://ysbjfdcdui6n"

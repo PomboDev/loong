@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://dgoomrwiuynal"]
+
+[ext_resource type="Script" uid="uid://bm5qwbnmqhkpa" path="res://core/entities/dragon_pearl/dragon_pearl.gd" id="1"]
+[ext_resource type="Script" uid="uid://cod1kqa5q5dny" path="res://core/lib/state_machine/state_machine.gd" id="2"]
+[ext_resource type="Script" uid="uid://nlsec1u4rgyp" path="res://core/entities/dragon_pearl/states/jade_idle_state.gd" id="3"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_3i7ak"]
+radius = 0.15
+height = 0.3
+radial_segments = 16
+rings = 8
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aonc1"]
+render_priority = 1
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0, 0, 0, 1)
+grow = true
+grow_amount = 0.01
+stencil_mode = 3
+stencil_flags = 1
+stencil_compare = 5
+metadata/_stencil_owned = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jrpji"]
+next_pass = SubResource("StandardMaterial3D_aonc1")
+transparency = 1
+albedo_color = Color(0.23921569, 1, 1, 0.3372549)
+refraction_enabled = true
+refraction_scale = 0.15
+stencil_mode = 1
+stencil_flags = 2
+
+[node name="DragonPreal" type="Node3D" unique_id=169032058]
+script = ExtResource("1")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1941687514]
+mesh = SubResource("SphereMesh_3i7ak")
+surface_material_override/0 = SubResource("StandardMaterial3D_jrpji")
+
+[node name="StateMachine" type="Node" parent="." unique_id=1140236671 node_paths=PackedStringArray("initial_state")]
+unique_name_in_owner = true
+script = ExtResource("2")
+initial_state = NodePath("JadeIdleState")
+metadata/_custom_type_script = "uid://cod1kqa5q5dny"
+
+[node name="JadeIdleState" type="Node" parent="StateMachine" unique_id=1973943007]
+script = ExtResource("3")
+metadata/_custom_type_script = "uid://nlsec1u4rgyp"

@@ -1,0 +1,15 @@
+class_name JadeState extends State
+
+@onready var pearl: DragonPearl = owner
+
+func enter() -> void :
+	pass
+
+func exit() -> void :
+	pass
+
+func update(_delta: float) -> void :
+	pass
+
+func physics_update(_delta: float) -> void :
+	pass

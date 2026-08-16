@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CollectibleData" format=3 uid="uid://d318d35a6kynn"]
+
+[ext_resource type="PackedScene" uid="uid://csfq4vj6r0pl7" path="res://assets/collectables/chinese coin2.glb" id="1"]
+[ext_resource type="Script" uid="uid://ysbjfdcdui6n" path="res://features/collectible_feature/collectible_resource.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+name = "coin"
+collision_radius = 0.5
+mesh_scene = ExtResource("1")
+albedo_texture = null
+rotation_speed = 1.5
+mesh_tilt_degrees = Vector3(90, 0, 0)
+mesh_scale = Vector3(0.5, 10, 0.05)
+metadata/_custom_type_script = "uid://ysbjfdcdui6n"

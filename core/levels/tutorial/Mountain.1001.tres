@@ -1,0 +1,26 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" uid="uid://crl5r6g4gdik7" path="res://core/levels/tutorial/TUTORIAL_Material_BaseColor.png" id="1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t2aaw"]
+render_priority = 1
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0, 0, 0, 1)
+grow = true
+grow_amount = 0.01
+stencil_mode = 3
+stencil_flags = 1
+stencil_compare = 5
+metadata/_stencil_owned = true
+
+[resource]
+resource_name = "Mountain.1001"
+next_pass = SubResource("StandardMaterial3D_t2aaw")
+cull_mode = 2
+shading_mode = 0
+diffuse_mode = 3
+specular_mode = 1
+albedo_texture = ExtResource("1")
+stencil_mode = 1
+stencil_flags = 2

@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://vgehwo07pfq8"]
+
+[ext_resource type="Script" uid="uid://dpijf8b50ljdk" path="res://features/collectible_feature/collectible.gd" id="1"]
+
+[node name="Magatama" type="Area3D" unique_id=1500157714]
+script = ExtResource("1")
+metadata/_custom_type_script = "uid://dpijf8b50ljdk"

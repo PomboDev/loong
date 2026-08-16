@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dsg763ngv7qck"]
+
+[ext_resource type="Script" uid="uid://dpijf8b50ljdk" path="res://features/collectible_feature/collectible.gd" id="1"]
+[ext_resource type="Resource" uid="uid://d318d35a6kynn" path="res://data/collectibles/coin.tres" id="2"]
+
+[node name="ChineseCoin" type="Area3D" unique_id=1338475382]
+script = ExtResource("1")
+data = ExtResource("2")
+metadata/_custom_type_script = "uid://dpijf8b50ljdk"

@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bebfqcb6y1en0"]
+
+[resource]
+resource_name = "ParchamentOpen"
+albedo_color = Color(0.80666035, 0.77865887, 0.49033257, 1)
+roughness = 0.775
+emission_enabled = true

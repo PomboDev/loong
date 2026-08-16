@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://b3jkipo6j8yiw"]
+
+[ext_resource type="Texture2D" uid="uid://bo23x1t5shdqb" path="res://core/user_interface/gameplay/assets/life.png" id="1"]
+
+[node name="Control" type="Control" unique_id=1469207058]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="." unique_id=1719492219]
+layout_mode = 1
+offset_top = 10.0
+offset_right = 667.0
+offset_bottom = 202.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="AspectRatioContainer" unique_id=696880822]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="AspectRatioContainer/HBoxContainer" unique_id=1937524769]
+layout_mode = 2
+texture = ExtResource("1")
+expand_mode = 2
+
+[node name="TextureRect2" type="TextureRect" parent="AspectRatioContainer/HBoxContainer" unique_id=1228908970]
+layout_mode = 2
+texture = ExtResource("1")
+expand_mode = 2
+
+[node name="TextureRect3" type="TextureRect" parent="AspectRatioContainer/HBoxContainer" unique_id=369403492]
+layout_mode = 2
+texture = ExtResource("1")
+expand_mode = 2
